@@ -1,0 +1,48 @@
+﻿Installing assembly 'C:\Users\benja\Documents\Visual Studio 2015\Projects\hdmi_cec_service\hdmi_cec_service\bin\Debug\hdmi_cec_service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\benja\Documents\Visual Studio 2015\Projects\hdmi_cec_service\hdmi_cec_service\bin\Debug\hdmi_cec_service.InstallLog
+   assemblypath = C:\Users\benja\Documents\Visual Studio 2015\Projects\hdmi_cec_service\hdmi_cec_service\bin\Debug\hdmi_cec_service.exe
+Installing service hdmi_cec_service...
+Service hdmi_cec_service has been successfully installed.
+Creating EventLog source hdmi_cec_service in log Application...
+Committing assembly 'C:\Users\benja\Documents\Visual Studio 2015\Projects\hdmi_cec_service\hdmi_cec_service\bin\Debug\hdmi_cec_service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\benja\Documents\Visual Studio 2015\Projects\hdmi_cec_service\hdmi_cec_service\bin\Debug\hdmi_cec_service.InstallLog
+   assemblypath = C:\Users\benja\Documents\Visual Studio 2015\Projects\hdmi_cec_service\hdmi_cec_service\bin\Debug\hdmi_cec_service.exe
+Uninstalling assembly 'C:\Users\benja\Documents\Visual Studio 2015\Projects\hdmi_cec_service\hdmi_cec_service\bin\Debug\hdmi_cec_service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\benja\Documents\Visual Studio 2015\Projects\hdmi_cec_service\hdmi_cec_service\bin\Debug\hdmi_cec_service.InstallLog
+   assemblypath = C:\Users\benja\Documents\Visual Studio 2015\Projects\hdmi_cec_service\hdmi_cec_service\bin\Debug\hdmi_cec_service.exe
+Removing EventLog source hdmi_cec_service.
+Service hdmi_cec_service is being removed from the system...
+Service hdmi_cec_service was successfully removed from the system.
+Attempt to stop service hdmi_cec_service.
+Installing assembly 'C:\Users\benja\Documents\Visual Studio 2015\Projects\hdmi_cec_service\hdmi_cec_service\bin\Debug\hdmi_cec_service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\benja\Documents\Visual Studio 2015\Projects\hdmi_cec_service\hdmi_cec_service\bin\Debug\hdmi_cec_service.InstallLog
+   assemblypath = C:\Users\benja\Documents\Visual Studio 2015\Projects\hdmi_cec_service\hdmi_cec_service\bin\Debug\hdmi_cec_service.exe
+Installing service hdmi_cec_service...
+Service hdmi_cec_service has been successfully installed.
+Creating EventLog source hdmi_cec_service in log Application...
+Committing assembly 'C:\Users\benja\Documents\Visual Studio 2015\Projects\hdmi_cec_service\hdmi_cec_service\bin\Debug\hdmi_cec_service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\benja\Documents\Visual Studio 2015\Projects\hdmi_cec_service\hdmi_cec_service\bin\Debug\hdmi_cec_service.InstallLog
+   assemblypath = C:\Users\benja\Documents\Visual Studio 2015\Projects\hdmi_cec_service\hdmi_cec_service\bin\Debug\hdmi_cec_service.exe
+Installing assembly 'C:\Users\benja\Documents\Visual Studio 2015\Projects\hdmi_cec_service\hdmi_cec_service\bin\Debug\hdmi_cec_service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\benja\Documents\Visual Studio 2015\Projects\hdmi_cec_service\hdmi_cec_service\bin\Debug\hdmi_cec_service.InstallLog
+   assemblypath = C:\Users\benja\Documents\Visual Studio 2015\Projects\hdmi_cec_service\hdmi_cec_service\bin\Debug\hdmi_cec_service.exe
+Installing service hdmi_cec_service...
+Service hdmi_cec_service has been successfully installed.
+Creating EventLog source hdmi_cec_service in log Application...
+Committing assembly 'C:\Users\benja\Documents\Visual Studio 2015\Projects\hdmi_cec_service\hdmi_cec_service\bin\Debug\hdmi_cec_service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\benja\Documents\Visual Studio 2015\Projects\hdmi_cec_service\hdmi_cec_service\bin\Debug\hdmi_cec_service.InstallLog
+   assemblypath = C:\Users\benja\Documents\Visual Studio 2015\Projects\hdmi_cec_service\hdmi_cec_service\bin\Debug\hdmi_cec_service.exe

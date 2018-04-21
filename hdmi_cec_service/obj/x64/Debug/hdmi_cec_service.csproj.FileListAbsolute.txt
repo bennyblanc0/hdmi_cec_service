@@ -1,0 +1,13 @@
+C:\Users\benja\Documents\Visual Studio 2015\Projects\hdmi_cec_service\hdmi_cec_service\bin\x64\Debug\ProjectInstaller.resx
+C:\Users\benja\Documents\Visual Studio 2015\Projects\hdmi_cec_service\hdmi_cec_service\bin\x64\Debug\ProjectInstaller.cs
+C:\Users\benja\Documents\Visual Studio 2015\Projects\hdmi_cec_service\hdmi_cec_service\bin\x64\Debug\ProjectInstaller.Designer.cs
+C:\Users\benja\Documents\Visual Studio 2015\Projects\hdmi_cec_service\hdmi_cec_service\bin\x64\Debug\hdmi_cec_service.exe.config
+C:\Users\benja\Documents\Visual Studio 2015\Projects\hdmi_cec_service\hdmi_cec_service\bin\x64\Debug\hdmi_cec_service.exe
+C:\Users\benja\Documents\Visual Studio 2015\Projects\hdmi_cec_service\hdmi_cec_service\bin\x64\Debug\hdmi_cec_service.pdb
+C:\Users\benja\Documents\Visual Studio 2015\Projects\hdmi_cec_service\hdmi_cec_service\bin\x64\Debug\LibCecSharp.dll
+C:\Users\benja\Documents\Visual Studio 2015\Projects\hdmi_cec_service\hdmi_cec_service\bin\x64\Debug\LibCecSharp.xml
+C:\Users\benja\Documents\Visual Studio 2015\Projects\hdmi_cec_service\hdmi_cec_service\obj\x64\Debug\hdmi_cec_service.hdmi_cec_service.resources
+C:\Users\benja\Documents\Visual Studio 2015\Projects\hdmi_cec_service\hdmi_cec_service\obj\x64\Debug\hdmi_cec_service.ProjectInstaller.resources
+C:\Users\benja\Documents\Visual Studio 2015\Projects\hdmi_cec_service\hdmi_cec_service\obj\x64\Debug\hdmi_cec_service.csproj.GenerateResource.Cache
+C:\Users\benja\Documents\Visual Studio 2015\Projects\hdmi_cec_service\hdmi_cec_service\obj\x64\Debug\hdmi_cec_service.exe
+C:\Users\benja\Documents\Visual Studio 2015\Projects\hdmi_cec_service\hdmi_cec_service\obj\x64\Debug\hdmi_cec_service.pdb

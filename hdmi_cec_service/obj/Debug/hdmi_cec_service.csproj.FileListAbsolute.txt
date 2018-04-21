@@ -1,0 +1,15 @@
+C:\Users\benja\Documents\Visual Studio 2015\Projects\hdmi_cec_service\hdmi_cec_service\bin\Debug\hdmi_cec_service.exe.config
+C:\Users\benja\Documents\Visual Studio 2015\Projects\hdmi_cec_service\hdmi_cec_service\bin\Debug\hdmi_cec_service.exe
+C:\Users\benja\Documents\Visual Studio 2015\Projects\hdmi_cec_service\hdmi_cec_service\bin\Debug\hdmi_cec_service.pdb
+C:\Users\benja\Documents\Visual Studio 2015\Projects\hdmi_cec_service\hdmi_cec_service\obj\Debug\hdmi_cec_service.hdmi_cec_service.resources
+C:\Users\benja\Documents\Visual Studio 2015\Projects\hdmi_cec_service\hdmi_cec_service\obj\Debug\hdmi_cec_service.ProjectInstaller.resources
+C:\Users\benja\Documents\Visual Studio 2015\Projects\hdmi_cec_service\hdmi_cec_service\obj\Debug\hdmi_cec_service.csproj.GenerateResource.Cache
+C:\Users\benja\Documents\Visual Studio 2015\Projects\hdmi_cec_service\hdmi_cec_service\obj\Debug\hdmi_cec_service.exe
+C:\Users\benja\Documents\Visual Studio 2015\Projects\hdmi_cec_service\hdmi_cec_service\obj\Debug\hdmi_cec_service.pdb
+C:\Users\benja\Documents\Visual Studio 2015\Projects\hdmi_cec_service\hdmi_cec_service\obj\Debug\hdmi_cec_service.csprojResolveAssemblyReference.cache
+C:\Users\benja\Documents\Visual Studio 2015\Projects\hdmi_cec_service\hdmi_cec_service\bin\Debug\ProjectInstaller.resx
+C:\Users\benja\Documents\Visual Studio 2015\Projects\hdmi_cec_service\hdmi_cec_service\bin\Debug\ProjectInstaller.cs
+C:\Users\benja\Documents\Visual Studio 2015\Projects\hdmi_cec_service\hdmi_cec_service\bin\Debug\ProjectInstaller.Designer.cs
+C:\Users\benja\Source\Repos\hdmi_cec_service\hdmi_cec_service\bin\Debug\hdmi_cec_service.exe.config
+C:\Users\benja\Source\Repos\hdmi_cec_service\hdmi_cec_service\obj\Debug\hdmi_cec_service.exe
+C:\Users\benja\Source\Repos\hdmi_cec_service\hdmi_cec_service\obj\Debug\hdmi_cec_service.pdb
