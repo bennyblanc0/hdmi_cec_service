@@ -10,7 +10,7 @@ namespace hdmi_cec_service
         {
             Config = new LibCECConfiguration();
             Config.DeviceTypes.Types[0] = CecDeviceType.RecordingDevice;
-            Config.DeviceName = "CEC Tester";
+            Config.DeviceName = "Pulse Eight USB CEC Adapter";
             Config.ClientVersion = LibCECConfiguration.CurrentVersion;
             Config.SetCallbacks(this);
             LogLevel = (int)CecLogLevel.All;
@@ -126,51 +126,6 @@ namespace hdmi_cec_service
               "[q] or [quit]             to quit the CEC test client and switch off all" + Environment.NewLine +
               "                          connected CEC devices." + Environment.NewLine +
               "================================================================================");
-        }
-
-        public string SetActiveSource(string activeSource)
-        {
-            if (activeSource == "AudioSystem")
-            {
-                Lib.SetActiveSource(CecDeviceType.AudioSystem);
-                return "setting active source to audio system";
-            }
-            if (activeSource == "PlaybackDevice")
-            {
-                Lib.SetActiveSource(CecDeviceType.PlaybackDevice);
-                return "setting active source to playback device";
-            }
-            if (activeSource == "RecordingDevice")
-            {
-                Lib.SetActiveSource(CecDeviceType.RecordingDevice);
-                return "setting active source to Recording device";
-            }
-            if (activeSource == "Reserved")
-            {
-                Lib.SetActiveSource(CecDeviceType.Reserved);
-                return "setting active source to Reserved device";
-            }
-            if (activeSource == "Tuner")
-            {
-                Lib.SetActiveSource(CecDeviceType.Tuner);
-                return "setting active source to Tuner";
-            }
-            if (activeSource == "Tv")
-            {
-                Lib.SetActiveSource(CecDeviceType.Tv);
-                return "setting active source to Tv";
-            }
-            return "Failed to set active source";
-        }
-        public string SetTvHDMIPort(string HDMIPort)
-        {
-            Lib.SetHDMIPort(CecLogicalAddress.AudioSystem, byte.Parse(HDMIPort));
-            return "Set Tv HDMI port to " + HDMIPort;
-        }
-        public string SetAudioSystemHDMIPort(string HDMIPort)
-        {
-            Lib.SetHDMIPort(CecLogicalAddress.AudioSystem, byte.Parse(HDMIPort));
-            return "Set device AudioSystem HDMI port to " + HDMIPort;
         }
         public string SendCommand(string command)
         {
@@ -390,7 +345,7 @@ namespace hdmi_cec_service
                         return "setting active source to Tv";
                     }
                 }
-                return "in correct use of setActiveSource";
+                return "incorrect use of setActiveSource";
             }
             else if (splitCommand[0] == "scan")
             {

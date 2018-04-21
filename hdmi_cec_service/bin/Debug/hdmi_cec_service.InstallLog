@@ -46,3 +46,61 @@ Affected parameters are:
    logtoconsole = 
    logfile = C:\Users\benja\Documents\Visual Studio 2015\Projects\hdmi_cec_service\hdmi_cec_service\bin\Debug\hdmi_cec_service.InstallLog
    assemblypath = C:\Users\benja\Documents\Visual Studio 2015\Projects\hdmi_cec_service\hdmi_cec_service\bin\Debug\hdmi_cec_service.exe
+Installing assembly 'c:\Users\benja\Source\Repos\hdmi_cec_service\hdmi_cec_service\bin\Debug\hdmi_cec_service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\Users\benja\Source\Repos\hdmi_cec_service\hdmi_cec_service\bin\Debug\hdmi_cec_service.InstallLog
+   assemblypath = c:\Users\benja\Source\Repos\hdmi_cec_service\hdmi_cec_service\bin\Debug\hdmi_cec_service.exe
+An exception occurred while trying to find the installers in the c:\Users\benja\Source\Repos\hdmi_cec_service\hdmi_cec_service\bin\Debug\hdmi_cec_service.exe assembly.
+System.Reflection.ReflectionTypeLoadException: Unable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information.
+Aborting installation for c:\Users\benja\Source\Repos\hdmi_cec_service\hdmi_cec_service\bin\Debug\hdmi_cec_service.exe.
+Rolling back assembly 'c:\Users\benja\Source\Repos\hdmi_cec_service\hdmi_cec_service\bin\Debug\hdmi_cec_service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\Users\benja\Source\Repos\hdmi_cec_service\hdmi_cec_service\bin\Debug\hdmi_cec_service.InstallLog
+   assemblypath = c:\Users\benja\Source\Repos\hdmi_cec_service\hdmi_cec_service\bin\Debug\hdmi_cec_service.exe
+An exception occurred while trying to find the installers in the c:\Users\benja\Source\Repos\hdmi_cec_service\hdmi_cec_service\bin\Debug\hdmi_cec_service.exe assembly.
+System.Reflection.ReflectionTypeLoadException: Unable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information.
+Aborting installation for c:\Users\benja\Source\Repos\hdmi_cec_service\hdmi_cec_service\bin\Debug\hdmi_cec_service.exe.
+Installing assembly 'c:\Users\benja\Source\Repos\hdmi_cec_service\hdmi_cec_service\bin\Debug\hdmi_cec_service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = c:\Users\benja\Source\Repos\hdmi_cec_service\hdmi_cec_service\bin\Debug\hdmi_cec_service.exe
+   logfile = c:\Users\benja\Source\Repos\hdmi_cec_service\hdmi_cec_service\bin\Debug\hdmi_cec_service.InstallLog
+Installing service hdmi_cec_service...
+Service hdmi_cec_service has been successfully installed.
+Creating EventLog source hdmi_cec_service in log Application...
+Committing assembly 'c:\Users\benja\Source\Repos\hdmi_cec_service\hdmi_cec_service\bin\Debug\hdmi_cec_service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = c:\Users\benja\Source\Repos\hdmi_cec_service\hdmi_cec_service\bin\Debug\hdmi_cec_service.exe
+   logfile = c:\Users\benja\Source\Repos\hdmi_cec_service\hdmi_cec_service\bin\Debug\hdmi_cec_service.InstallLog
+Uninstalling assembly 'c:\Users\benja\Source\Repos\hdmi_cec_service\hdmi_cec_service\bin\Debug\hdmi_cec_service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = c:\Users\benja\Source\Repos\hdmi_cec_service\hdmi_cec_service\bin\Debug\hdmi_cec_service.exe
+   logfile = c:\Users\benja\Source\Repos\hdmi_cec_service\hdmi_cec_service\bin\Debug\hdmi_cec_service.InstallLog
+Removing EventLog source hdmi_cec_service.
+Service hdmi_cec_service is being removed from the system...
+Service hdmi_cec_service was successfully removed from the system.
+Installing assembly 'c:\Users\benja\Source\Repos\hdmi_cec_service\hdmi_cec_service\bin\Debug\hdmi_cec_service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = c:\Users\benja\Source\Repos\hdmi_cec_service\hdmi_cec_service\bin\Debug\hdmi_cec_service.exe
+   logfile = c:\Users\benja\Source\Repos\hdmi_cec_service\hdmi_cec_service\bin\Debug\hdmi_cec_service.InstallLog
+Installing service hdmi_cec_service...
+Service hdmi_cec_service has been successfully installed.
+Creating EventLog source hdmi_cec_service in log Application...
+Committing assembly 'c:\Users\benja\Source\Repos\hdmi_cec_service\hdmi_cec_service\bin\Debug\hdmi_cec_service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = c:\Users\benja\Source\Repos\hdmi_cec_service\hdmi_cec_service\bin\Debug\hdmi_cec_service.exe
+   logfile = c:\Users\benja\Source\Repos\hdmi_cec_service\hdmi_cec_service\bin\Debug\hdmi_cec_service.InstallLog
+Uninstalling assembly 'c:\Users\benja\Source\Repos\hdmi_cec_service\hdmi_cec_service\bin\Debug\hdmi_cec_service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = c:\Users\benja\Source\Repos\hdmi_cec_service\hdmi_cec_service\bin\Debug\hdmi_cec_service.exe
+   logfile = c:\Users\benja\Source\Repos\hdmi_cec_service\hdmi_cec_service\bin\Debug\hdmi_cec_service.InstallLog
+Removing EventLog source hdmi_cec_service.
+Service hdmi_cec_service is being removed from the system...
+Service hdmi_cec_service was successfully removed from the system.

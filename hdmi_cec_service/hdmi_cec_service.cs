@@ -9,18 +9,29 @@ namespace hdmi_cec_service
 {
     public partial class hdmi_cec_service : ServiceBase
     {
+        // Declare threading processes
         public Thread thread;
         public TcpListener tcpListener;
         public Timer timer;
-        public bool threadsRunning = false;
-        public CecSharpClient p = new CecSharpClient();
-        public string pActiveSource = "AudioSystem";
-        public string pTvHDMIPort = "2";
-        public string pAudioSystemHDMIPort = "1";
+
+        // Declare flags
+        public bool threadRunning = false;
+        public string ping = "False";
+
+        // Instantiate CEC client instance 
+        public CecSharpClient cecSharpclient = new CecSharpClient();
+
+        // Declare passed argument variables
+        public string pActiveSource;
+        public string pTvHDMIPort;
+        public string pAudioSystemHDMIPort;
 
         public hdmi_cec_service()
         {
+            // Mandatory initialisation for designer 
             InitializeComponent();
+
+            // Set up event logging in Windows Application log
             eventLog = new System.Diagnostics.EventLog();
             if (!System.Diagnostics.EventLog.SourceExists("hdmi_cec_service"))
             {
@@ -33,21 +44,41 @@ namespace hdmi_cec_service
 
         public void OnTimer(object sender, System.Timers.ElapsedEventArgs args)
         {
-            eventLog.WriteEntry("Ping result: " + p.SendCommand("ping"));
-            if (p.SendCommand("ping") == "False")
+            // Check if CEC device is present/responsive and if not then attempt restart 
+            if (threadRunning)
             {
-                threadsRunning = false;
-                p.Close();
+                ping = cecSharpclient.SendCommand("ping");
+            }
+            else
+            {
+                ping = "False";
+            }
+            if (ping == "False")
+            {
+                threadRunning = false; // Must set flag to false before attempting to stop TCP listener so main thread can exit gracefully
+                tcpListener.Stop();
+                while (thread.IsAlive)
+                {
+                    thread.Abort(); // Probably don't need to do this
+                }                
+                tcpListener.Start();
+                thread = new Thread(MainThread);
+                thread.Start();
             }
         }
 
         public void MainThread() {
-            eventLog.WriteEntry("Connecting to CEC device");
-            if (p.Connect(10000))
+            if (cecSharpclient.Connect(10000))
             {
-                // p.SetDefaultHDMI();
-                eventLog.WriteEntry("Successfully connected to CEC device");       
-                while (threadsRunning)
+                eventLog.WriteEntry("Successfully connected to CEC device");
+                threadRunning = true;
+
+                // Set default device ports and active source.  I seems Libcec always sets HDMI ports to 1 by default... annoying.
+                eventLog.WriteEntry(cecSharpclient.SendCommand("setActiveSource " + pActiveSource));
+                eventLog.WriteEntry(cecSharpclient.SendCommand("setDeviceHDMIPort Tv " + pTvHDMIPort));
+                eventLog.WriteEntry(cecSharpclient.SendCommand("setDeviceHDMIPort AudioSystem " + pAudioSystemHDMIPort));
+                
+                while (threadRunning)
                 {
                     Socket socket = tcpListener.AcceptSocket();
                     byte[] bytes = new Byte[256];
@@ -55,28 +86,35 @@ namespace hdmi_cec_service
                     int result = socket.Receive(bytes);
                     ASCIIEncoding ascen = new ASCIIEncoding();
                     string str = ascen.GetString(bytes).Replace("\0", "");
-                    eventLog.WriteEntry("Receved: " + str);
-                    eventLog.WriteEntry(p.SendCommand(str));
+                    eventLog.WriteEntry("Received: " + str);
+                    eventLog.WriteEntry(cecSharpclient.SendCommand(str));
                     socket.Close();
-                }
+                }              
+                return;
             }
             else
             {
                 eventLog.WriteEntry("Could not open a connection to the CEC adapter");
             }
+            return;
         }
 
         protected override void OnStart(string[] args)
         {
-            eventLog.WriteEntry("Starting service");
-
             // Set any passed parameters 
-            pActiveSource = args[0];
-            pTvHDMIPort = args[1];
-            pAudioSystemHDMIPort = args[2];
+            args = Environment.GetCommandLineArgs();
 
-            // Mark threads as running 
-            threadsRunning = true;
+            pActiveSource = args[1];
+            pTvHDMIPort = args[2];
+            pAudioSystemHDMIPort = args[3];
+
+            StringBuilder output = new StringBuilder();
+            output.AppendLine("Passed arguments");
+            output.AppendLine("===================");
+            output.AppendLine("pActiveSource: " + pActiveSource);
+            output.AppendLine("pTvHDMIPort: " + pTvHDMIPort);
+            output.AppendLine("pAudioSystemHDMIPort: " + pAudioSystemHDMIPort);
+            eventLog.WriteEntry(output.ToString());
 
             // Set up a timer to trigger every minute.
             eventLog.WriteEntry("Starting timer");
@@ -92,7 +130,7 @@ namespace hdmi_cec_service
                 eventLog.WriteEntry("Failed to start timer");               
             }
 
-            // Start TCP listner thread
+            // Start TCP listner 
             eventLog.WriteEntry("Starting TCP listener");
             try
             {
@@ -105,7 +143,7 @@ namespace hdmi_cec_service
             }
 
             // Start main thread
-            eventLog.WriteEntry("Starting main thread");
+            eventLog.WriteEntry("Starting main thread");            
             try
             {
                 thread = new Thread(MainThread);

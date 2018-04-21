@@ -1,0 +1,48 @@
+﻿Installing assembly 'c:\Users\benja\Source\Repos\hdmi_cec_service\hdmi_cec_service\bin\x64\Debug\hdmi_cec_service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\Users\benja\Source\Repos\hdmi_cec_service\hdmi_cec_service\bin\x64\Debug\hdmi_cec_service.InstallLog
+   assemblypath = c:\Users\benja\Source\Repos\hdmi_cec_service\hdmi_cec_service\bin\x64\Debug\hdmi_cec_service.exe
+An exception occurred while trying to find the installers in the c:\Users\benja\Source\Repos\hdmi_cec_service\hdmi_cec_service\bin\x64\Debug\hdmi_cec_service.exe assembly.
+System.Reflection.ReflectionTypeLoadException: Unable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information.
+Aborting installation for c:\Users\benja\Source\Repos\hdmi_cec_service\hdmi_cec_service\bin\x64\Debug\hdmi_cec_service.exe.
+Rolling back assembly 'c:\Users\benja\Source\Repos\hdmi_cec_service\hdmi_cec_service\bin\x64\Debug\hdmi_cec_service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\Users\benja\Source\Repos\hdmi_cec_service\hdmi_cec_service\bin\x64\Debug\hdmi_cec_service.InstallLog
+   assemblypath = c:\Users\benja\Source\Repos\hdmi_cec_service\hdmi_cec_service\bin\x64\Debug\hdmi_cec_service.exe
+An exception occurred while trying to find the installers in the c:\Users\benja\Source\Repos\hdmi_cec_service\hdmi_cec_service\bin\x64\Debug\hdmi_cec_service.exe assembly.
+System.Reflection.ReflectionTypeLoadException: Unable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information.
+Aborting installation for c:\Users\benja\Source\Repos\hdmi_cec_service\hdmi_cec_service\bin\x64\Debug\hdmi_cec_service.exe.
+Installing assembly 'c:\Users\benja\Source\Repos\hdmi_cec_service\hdmi_cec_service\bin\x64\Debug\hdmi_cec_service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\Users\benja\Source\Repos\hdmi_cec_service\hdmi_cec_service\bin\x64\Debug\hdmi_cec_service.InstallLog
+   assemblypath = c:\Users\benja\Source\Repos\hdmi_cec_service\hdmi_cec_service\bin\x64\Debug\hdmi_cec_service.exe
+An exception occurred while trying to find the installers in the c:\Users\benja\Source\Repos\hdmi_cec_service\hdmi_cec_service\bin\x64\Debug\hdmi_cec_service.exe assembly.
+System.Reflection.ReflectionTypeLoadException: Unable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information.
+Aborting installation for c:\Users\benja\Source\Repos\hdmi_cec_service\hdmi_cec_service\bin\x64\Debug\hdmi_cec_service.exe.
+Rolling back assembly 'c:\Users\benja\Source\Repos\hdmi_cec_service\hdmi_cec_service\bin\x64\Debug\hdmi_cec_service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\Users\benja\Source\Repos\hdmi_cec_service\hdmi_cec_service\bin\x64\Debug\hdmi_cec_service.InstallLog
+   assemblypath = c:\Users\benja\Source\Repos\hdmi_cec_service\hdmi_cec_service\bin\x64\Debug\hdmi_cec_service.exe
+An exception occurred while trying to find the installers in the c:\Users\benja\Source\Repos\hdmi_cec_service\hdmi_cec_service\bin\x64\Debug\hdmi_cec_service.exe assembly.
+System.Reflection.ReflectionTypeLoadException: Unable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information.
+Aborting installation for c:\Users\benja\Source\Repos\hdmi_cec_service\hdmi_cec_service\bin\x64\Debug\hdmi_cec_service.exe.
+Installing assembly 'c:\Users\benja\Source\Repos\hdmi_cec_service\hdmi_cec_service\bin\x64\Debug\hdmi_cec_service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\Users\benja\Source\Repos\hdmi_cec_service\hdmi_cec_service\bin\x64\Debug\hdmi_cec_service.InstallLog
+   assemblypath = c:\Users\benja\Source\Repos\hdmi_cec_service\hdmi_cec_service\bin\x64\Debug\hdmi_cec_service.exe
+An exception occurred while trying to find the installers in the c:\Users\benja\Source\Repos\hdmi_cec_service\hdmi_cec_service\bin\x64\Debug\hdmi_cec_service.exe assembly.
+System.Reflection.ReflectionTypeLoadException: Unable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information.
+Aborting installation for c:\Users\benja\Source\Repos\hdmi_cec_service\hdmi_cec_service\bin\x64\Debug\hdmi_cec_service.exe.
+Rolling back assembly 'c:\Users\benja\Source\Repos\hdmi_cec_service\hdmi_cec_service\bin\x64\Debug\hdmi_cec_service.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = c:\Users\benja\Source\Repos\hdmi_cec_service\hdmi_cec_service\bin\x64\Debug\hdmi_cec_service.InstallLog
+   assemblypath = c:\Users\benja\Source\Repos\hdmi_cec_service\hdmi_cec_service\bin\x64\Debug\hdmi_cec_service.exe
+An exception occurred while trying to find the installers in the c:\Users\benja\Source\Repos\hdmi_cec_service\hdmi_cec_service\bin\x64\Debug\hdmi_cec_service.exe assembly.
+System.Reflection.ReflectionTypeLoadException: Unable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information.
+Aborting installation for c:\Users\benja\Source\Repos\hdmi_cec_service\hdmi_cec_service\bin\x64\Debug\hdmi_cec_service.exe.
